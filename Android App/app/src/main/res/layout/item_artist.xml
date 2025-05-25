@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    android:background="@android:color/transparent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Artist Image -->
+        <ImageView
+            android:id="@+id/artistImage"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:contentDescription="Artist Image"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Star Button (Top-right) -->
+        <ImageView
+            android:id="@+id/starIcon"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:padding="6dp"
+            android:background="@drawable/circle_background"
+            android:contentDescription="Favorite Icon"
+            android:src="@drawable/baseline_star_border_24"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="@id/artistImage"
+            app:layout_constraintTop_toTopOf="@id/artistImage" />
+
+
+        <!-- Bottom overlay with name and arrow -->
+        <LinearLayout
+            android:id="@+id/bottomOverlay"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="@color/transparent_blue"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="@id/artistImage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/artistName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Artist Name"
+                android:textSize="20sp"
+                android:textColor="@color/textColor"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/rightArrow"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:contentDescription="View Details"
+                android:src="@drawable/baseline_keyboard_arrow_right_24" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

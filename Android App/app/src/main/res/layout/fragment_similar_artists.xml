@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ProgressBar at Top -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="16dp"
+        android:visibility="visible"
+        android:indeterminateTint="@color/primaryColor" />
+
+    <!-- "No Similar" Text -->
+    <TextView
+        android:id="@+id/noSimilarText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Similar Artists"
+        android:textSize="16sp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:textColor="@color/textColor"
+        android:background="@drawable/not_found_rounded"
+        android:padding="16dp"
+        android:visibility="gone" />
+
+    <!-- RecyclerView for Similar Artists -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/similarArtistsRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="8dp"
+        android:visibility="gone" />
+</FrameLayout>

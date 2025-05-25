@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Big Artwork Image -->
+        <ImageView
+            android:id="@+id/artworkImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:contentDescription="Artwork Image" />
+
+        <!-- Artwork Title -->
+        <TextView
+            android:id="@+id/artworkTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Artwork Title"
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <!-- View Categories Button -->
+        <Button
+            android:id="@+id/viewCategoriesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@color/screenBack"
+            android:text="View Categories"
+            android:background="@drawable/round_button"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

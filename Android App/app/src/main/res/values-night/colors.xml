@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="screenBack">#131215</color>
+    <color name="light_background">#2C2E30</color>
+    <color name="transparent_blue">#BF263D6B</color>
+    <color name="textColor">#FFFFFFFF</color>
+    <color name="backgroundColor">#263D6B</color>
+    <color name="primaryColor">#D6DFFA</color>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Artist Search</string>
+
+    <string name="artist_name">Artist Name</string>
+    <string name="artist_image">Artist Image</string>
+    <string name="view_details">Right Arrow Icon</string>
+    <string name="search_icon_description">Search</string>
+    <string name="close_icon_description">Close</string>
+    <string name="search_artist_hint">Search artists...</string>
+    <string name="artist_list">Artist List</string>
+    <string name="register_prompt">Don\'t have an account yet? Register</string>
+    <string name="login_prompt">Already have an account? Login</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ArtistSearch" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your app's colors -->
+        <item name="android:statusBarColor">@color/backgroundColor</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/screenBack</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/textColor</item>
+        <item name="android:windowBackground">@color/screenBack</item>
+        <item name="colorControlActivated">@color/primaryColor</item>
+        <!-- Optional: Disable default gray elevation -->
+        <item name="android:colorBackground">@color/screenBack</item>
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+    </style>
+
+</resources>
