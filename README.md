@@ -28,7 +28,7 @@ Both apps use a shared backend and offer consistent features like search, catego
 
 | Platform       | Tech Details                                                                 |
 |----------------|------------------------------------------------------------------------------|
-| 🌐 Web App      | React, Tailwind, TypeScript, Node.js, Express, MongoDB Atlas, JWT, Cookies   |
+| 🌐 Web App      | Angular, TypeScript, Node.js, Express, MongoDB Atlas, JWT, Cookies   |
 | 📱 Android App  | Kotlin, Jetpack Compose, Retrofit, Coroutines, PersistentCookieJar           |
 | 🔗 Shared Backend | Node.js, Express.js, MongoDB Atlas, JWT, Cookie-parser, Google Cloud Hosting |
 | 📡 External API | [Artsy Public API](https://developers.artsy.net/)                            |
