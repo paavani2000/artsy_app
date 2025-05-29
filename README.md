@@ -6,7 +6,7 @@ An end-to-end, cross-platform solution for discovering and bookmarking artists u
 
 This project contains two independent yet connected applications:
 
-- 🌐 **[Artsy Web App](./Web App)**: A full-stack application built with React, Node.js, and MongoDB  
+- 🌐 **[Artsy Web App](./Web App)**: A full-stack application built with Angular, Node.js, and MongoDB  
 - 📱 **[Artsy Android App](./Android App)**: A native Android app built using Kotlin and Jetpack Compose
 
 Both apps use a shared backend and offer consistent features like search, category exploration, artist details, and secure favorite management.
